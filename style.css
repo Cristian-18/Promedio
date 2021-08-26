@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@1,300&family=Roboto:wght@300;400&display=swap');
+/*  font-family: 'Glory', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+*
+    {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+  a 
+  {
+      text-decoration: none;
+  }  
+.header 
+    {
+        width: 100%;
+        height: auto;
+        background-color: #7FB3D5;  
+    }   
+.header .nav-main 
+
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+ .nav-main .logo .logo-main,
+ .nav-main .lista .lista-figuras 
+    
+    {
+        display: flex;
+        list-style: none;
+    }
+ 
+ .nav-main .lista .lista-figuras li
+    {
+        
+        padding: 25px 20px;
+
+    }
+ .nav-main .lista .lista-figuras li  a
+    {
+       /*  font-family: 'Glory', sans-serif; */
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 1.5em;
+        color: #EAECEE ;
+
+    }
+ 
+ 
+   .nav-main .logo img
+    {
+        width: 80px;
+        height: 80px;
+        margin-left: 30px;
+    }
+   
+  /* Formulario */   
+
+  .main-section
+    {
+        display: flex;
+        padding: 40px;
+        gap: 30px;
+    }
+
+  .cuadrado     
+    {
+        width: 380px;
+        height: 400px;
+        padding: 25px;
+        border: 2px solid #7FB3D5;
+        border-radius: 30px;
+    }
+   .cuadrado .cuadrado-title1 
+    {
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        color:#071bf0 ;
+        padding: 15px;
+    }  
+
+    .cuadrado .cuadrado-title2
+        {
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            font-weight: 300;
+            color:#4e4e4f ;
+            padding: 10px;
+        }
+     .cuadrado .cuadrado-form
+        {
+            display: flex;
+            flex-direction: column;
+        }    
+     
+     .cuadrado-form  .cuadrado-form-input,
+     .cuadrado-form  .cuadrado-form--button
+        {
+           margin: 10px; 
+           padding: 10px;
+           border-radius: 30px;
+           border:none;
+           border: 1px solid #7FB3D5;
+           outline: none;
+        }
+    .cuadrado-form  .cuadrado-form--label
+        {
+            margin: 10px; 
+            padding: 10px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            color:#4e4e4f ;
+        }
+    section .cuadrado-form  .cuadrado-form--button   
+        {
+            
+            border-radius: 10px;
+            font-family:'Roboto', sans-serif;
+            font-size: 25px;    
+            color:#071bf0;
+            font-weight: 700;
+            cursor: pointer;
+            
+        }
+      
+       /* TARJETA DEL TRIANGULO */ 
+
+       .main-section .triangulo 
+        {
+            width:380px ;
+            height: 400px;
+            padding: 25px;
+            border: 2px solid #7FB3D5;
+            border-radius: 30px;
+        }
+
+        .triangulo .triangulo-form
+            {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+
+
+
+    
+   
+  
+   
+     
+   
+ 
+    
+ 
+
