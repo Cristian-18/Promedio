@@ -143,6 +143,14 @@
                 flex-direction: column;
                 gap: 10px;
             }
+        .triangulo .triangulo-title1 
+            {
+                font-family: 'Roboto', sans-serif;
+                font-size: 25px;
+                font-weight: 400;
+                color:#071bf0 ;
+                padding: 15px;
+            }    
 
 
 
