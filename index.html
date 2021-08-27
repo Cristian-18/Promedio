@@ -29,9 +29,13 @@
             <p class="cuadrado-title1">Perimetro de un cuadrado</p>
             <p class="cuadrado-title2">El perimetro es la suma de los lados del cuadrado</p>
             <form action="" class="cuadrado-form">
-                <label for="lado" class="cuadrado-form--label">Ingresa el lado </label>
-                <input type="number" class="cuadrado-form-input" id="lado">
-                <button type="button" class="cuadrado-form--button">Perimetro</button>
+                <label for="lado-cuadrado" class="cuadrado-form--label">Ingresa el lado </label>
+                <input type="number" class="cuadrado-form-input" id="lado-cuadrado">
+                <button type="button" class="cuadrado-form--button" onclick="calcularPerimetro ()">Perimetro
+                </button>
+
+                <button type="button" class="cuadrado-form--button" onclick="calcularArea ()">Area
+                </button>
             </form>
         </div>
 
@@ -39,17 +43,23 @@
             <p class="triangulo-title1">Perimetro del Triangulo</p>
             <p class="triangulo-title2">El perimetro se calcula con suma de sus 3 lados</p>
 
-            <form action="" class="triangulo-form">
-                <label for="" class="triangulo-label-uno">Ingresa el Primer Lado</label>
-                <input type="number">
+            <form action=" " class="triangulo-form">
 
-                <label for="" class="triangulo-label-dos">Ingresa el Segundo Lado</label>
-                <input type="number">
+                <label for="lado-triangulo-uno" class="triangulo-label-uno">Ingresa el Primer Lado
+                </label>
+                <input type="number" id="lado-triangulo-uno">
 
-                <label for="" class="triangulo-label-tres">Ingresa la Base</label>
-                <input type="number">
+                <label for="lado-triangulo-dos" class="triangulo-label-dos">Ingresa el Segundo Lado
+                </label>
+                <input type="number" id="lado-triangulo-dos">
 
-                <button class="triangulo-form-button">Perimetro</button>
+                <label for="base-trinagulo" class="triangulo-label-tres">Ingresa la Base
+                </label>
+                <input type="number" id="base-trinagulo">
+
+                <button type="button" class="triangulo-form-button">Perimetro
+                </button>
+
             </form>
 
         </div>
